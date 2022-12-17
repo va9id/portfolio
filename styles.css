@@ -1,0 +1,76 @@
+body,
+.navbar {
+    background-color: rgb(48, 10, 36);
+}
+
+body,
+.navbar a {
+    color: whitesmoke;
+    font-family: monospace;
+}
+
+section {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+h1,
+span.start-line {
+    color: rgb(85, 255, 85);
+}
+
+
+header .navbar-brand {
+    margin-left: 10px;
+}
+
+header .nav-item {
+    margin-left: 19px;
+}
+
+header img {
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    align-content: center;
+}
+
+#about {
+    margin-top: 80px;
+}
+
+.command {
+    margin-left: 1.75em;
+    text-indent: -1.75em;
+}
+
+.navbar {
+    background-color: rgb(85, 85, 85);
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+.personal-project {
+    font-weight: bold;
+}
+
+.personal-project p,
+.personal-project span {
+    font-weight: normal;
+}
+
+.personal-project img {
+    height: 40px;
+    width: 40px;
+}
+
+#work-experience img {
+    height: 40px;
+    width: 40px;
+}
+
+.work-experience-logos {
+    text-align: center;
+}
