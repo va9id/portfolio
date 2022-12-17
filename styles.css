@@ -71,6 +71,11 @@ header img {
     width: 40px;
 }
 
+.white-background {
+    background-color: white;
+    border-radius: 5px;
+}
+
 .work-experience-logos {
     text-align: center;
 }
