@@ -13,7 +13,7 @@ body {
     align-items: center;
     font-family: 'Roboto', sans-serif;
     color: #FFFFF0;
-    background: linear-gradient(0deg, rgba(7, 0, 36, 1), rgba(79, 9, 121, 1) 35%, rgba(127, 9, 110, 1) 44%, rgba(255, 167, 0, 1) 100%);
+    background: linear-gradient(320deg, rgba(0, 57, 115, 1) 0%, rgba(0, 57, 115, 1) 26%, rgba(229, 229, 190, 1) 92%);
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
@@ -48,4 +48,15 @@ i:hover {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    padding-bottom: 1rem;
+}
+
+.other-color {
+    background: linear-gradient(0deg, rgba(7, 0, 36, 1), rgba(79, 9, 121, 1) 35%, rgba(127, 9, 110, 1) 44%, rgba(255, 167, 0, 1) 100%);
 }
