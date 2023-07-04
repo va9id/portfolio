@@ -1,2 +1,1 @@
-# Portfolio
-Available at https://va9id.github.io
+# Available @ https://va9id.github.io
