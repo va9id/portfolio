@@ -49,14 +49,3 @@ i:hover {
     justify-content: center;
     align-items: center;
 }
-
-footer {
-    position: absolute;
-    left: 0;
-    bottom: 0;
-    padding-bottom: 1rem;
-}
-
-.other-color {
-    background: linear-gradient(0deg, rgba(7, 0, 36, 1), rgba(79, 9, 121, 1) 35%, rgba(127, 9, 110, 1) 44%, rgba(255, 167, 0, 1) 100%);
-}
