@@ -51,6 +51,10 @@ i:hover {
     align-items: center;
 }
 
+.content {
+    padding-bottom: 26vh;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;
