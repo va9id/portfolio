@@ -1,59 +1,102 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
-html {
-    height: 100%;
-    width: 100%;
-    overflow: hidden;
-}
-
-body {
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Roboto', sans-serif;
-    color: #FFFFF0;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-    height: 100vh;
+:root {
+    --bg-color: #FFFFF0;
+    --card-color: rgb(23, 23, 23);
 }
 
 a {
-    font-size: 1.5rem;
-    padding: 10px;
-    transition: font-size 0.75s ease-in-out;
-}
-
-a:hover {
-    font-size: 1.6rem;
+    z-index: 4;
     cursor: pointer;
 }
 
-h1 {
-    font-size: 3rem;
-    margin-bottom: 10px;
-}
-
-i {
-    padding-top: 2rem;
-    color: #FFFFF0;
-    opacity: 0.75;
-}
-
-i:hover {
-    opacity: 1;
-}
-
-.icons {
-    display: flex;
-    justify-content: center;
+body {
     align-items: center;
+    animation: gradient 15s ease infinite;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    color: var(--bg-color);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    min-width: 250px;
 }
 
 .content {
     padding-bottom: 19vh;
 }
+
+#cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#cards:hover>.card::after {
+    opacity: 1;
+}
+
+.card {
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 60px;
+    width: calc(100% / 3.33);
+}
+
+.card:hover::before {
+    opacity: 1;
+}
+
+.card::before,
+.card::after {
+    border-radius: inherit;
+    content: "";
+    height: 100%;
+    left: 0px;
+    opacity: 0;
+    position: absolute;
+    top: 0px;
+    transition: opacity 500ms;
+    width: 100%;
+}
+
+.card::before {
+    background: radial-gradient(300px circle at var(--mouse-x) var(--mouse-y),
+            rgba(255, 255, 255, 0.06),
+            transparent 40%);
+    z-index: 3;
+}
+
+.card::after {
+    background: radial-gradient(150px circle at var(--mouse-x) var(--mouse-y),
+            rgba(255, 255, 255, 0.5),
+            transparent 40%);
+    z-index: 1;
+}
+
+.card-info-wrapper {
+    align-items: center;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 0px 20px;
+}
+
+
+
+i {
+    color: var(--bg-color);
+}
+
 
 @keyframes gradient {
     0% {
