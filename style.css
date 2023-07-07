@@ -13,6 +13,7 @@ a {
     align-items: center;
     justify-content: center;
     text-decoration: none;
+    font-size: large;
 }
 
 body {
@@ -53,7 +54,7 @@ body {
     display: flex;
     flex-direction: column;
     position: relative;
-    height: 60px;
+    height: 75px;
     width: calc(100% / 3.33);
 }
 
@@ -97,6 +98,11 @@ body {
 
 i {
     color: var(--bg-color);
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
 }
 
 @keyframes gradient {
