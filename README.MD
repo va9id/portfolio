@@ -1,1 +1,1 @@
-# Available @ https://va9id.github.io
+https://va9id.github.io
