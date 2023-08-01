@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto');
 
 :root {
-    --bg-color: #FFFFF0;
+    --text-color: #FFFFF0;
 }
 
 a {
@@ -19,9 +19,9 @@ a {
 body {
     align-items: center;
     animation: gradient 15s ease infinite;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    color: var(--bg-color);
+    background: linear-gradient(-45deg, #ee7752, #e73c7e 30%, #23a6d5 70%, #23d5ab);
+    background-size: 200% 200%;
+    color: var(--text-color);
     display: flex;
     height: 100vh;
     justify-content: center;
@@ -95,7 +95,7 @@ body {
 }
 
 i {
-    color: var(--bg-color);
+    color: var(--text-color);
 }
 
 h1 {
