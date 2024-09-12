@@ -4,6 +4,11 @@
     --text-color: #FFFFF0;
 }
 
+html {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
 a {
     z-index: 4;
     cursor: pointer;
@@ -32,10 +37,6 @@ body {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     min-width: 250px;
-}
-
-.content {
-    padding-bottom: 19vh;
 }
 
 #cards {
