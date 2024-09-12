@@ -34,6 +34,10 @@ body {
     min-width: 250px;
 }
 
+.content {
+    padding-bottom: 19vh;
+}
+
 #cards {
     display: flex;
     flex-wrap: wrap;
