@@ -19,7 +19,9 @@ a {
 body {
     align-items: center;
     animation: gradient 15s ease infinite;
-    background: linear-gradient(-45deg, #ee7752, #e73c7e 30%, #23a6d5 70%, #23d5ab);
+    background: rgb(40, 40, 40);
+    background: linear-gradient(45deg, rgba(40, 40, 40, 1) 19%, rgba(91, 91, 89, 1) 36%, rgba(125, 125, 122, 1) 62%, rgba(168, 168, 165, 1) 90%);
+    /*background: linear-gradient(-45deg, #ee7752, #e73c7e 30%, #23a6d5 70%, #23d5ab);*/
     background-size: 200% 200%;
     color: var(--text-color);
     display: flex;
@@ -30,10 +32,6 @@ body {
     padding: 0px;
     font-family: 'Roboto', sans-serif;
     min-width: 250px;
-}
-
-.content {
-    padding-bottom: 19vh;
 }
 
 #cards {
@@ -55,7 +53,7 @@ body {
     flex-direction: column;
     position: relative;
     height: 80px;
-    width: calc(100% / 3.1);
+    width: 69%;
 }
 
 .card:hover::before {
