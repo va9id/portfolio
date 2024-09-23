@@ -106,6 +106,12 @@ h1 {
     margin-bottom: 10px;
 }
 
+#old-school {
+    position: fixed;
+    bottom: 19px;
+    right: 19px;
+}
+
 @keyframes gradient {
     0% {
         background-position: 0% 50%;

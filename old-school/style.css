@@ -1,0 +1,32 @@
+table {
+    font-family: monospace;
+    border-collapse: collapse;
+}
+
+thead {
+    border-bottom: 2px solid black;
+}
+
+tbody tr:first-child td {
+    padding-top: 19px;
+}
+
+h1 {
+    margin-left: 5px;
+}
+
+th {
+    text-align: left;
+    font-weight: normal;
+    padding-bottom: 10px;
+}
+
+th,
+td {
+    padding-left: 5px;
+    padding-right: 15px;
+}
+
+tr {
+    padding-bottom: 50px;
+}
