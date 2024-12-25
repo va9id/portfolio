@@ -4,7 +4,8 @@ body {
     width: 98%;
     height: 98%;
     position: absolute;
-    display: table
+    display: table;
+    overflow: hidden;
 }
 
 p {
